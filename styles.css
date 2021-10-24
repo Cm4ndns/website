@@ -1,0 +1,190 @@
+body {
+  font-family: "Monserrat";
+}
+.container-fluid {
+  padding: 3.5% 15% 7%;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+/* Download Button */
+.download-btn {
+  margin: 5% 3% 5% 0%;
+  font-size: 1.4rem;
+}
+
+/* Title Image */
+.title-img {
+  margin-top: 1.1rem;
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features */
+
+h3 {
+  font-size: 1.7rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.feature-box {
+  text-align: center;
+  line-height: 1.3;
+  padding: 5%;
+}
+
+.feature:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-family: "MOnsterrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  border: 1px solid #ef8172;
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-content {
+  padding: 7% 30%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 12%;
+  margin: 30px 30px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.card-pricing {
+  padding: 3% 2%;
+}
+
+#pricing h2 {
+  font-family: "Montserrat";
+}
+
+/* Call To Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 19%;
+}
+
+h3 {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+#cta h3 {
+  color: white;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  line-height: 1.5;
+  margin: 2rem 0;
+  background-color: white;
+}
+
+.social {
+  margin: 15px 15px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 769px) {
+  .title-img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 40px;
+  }
+}
